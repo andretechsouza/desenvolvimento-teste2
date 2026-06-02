@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste2
+  description: "Teste da criação de template para desenvolvimento"
+  annotations:
+    github.com/project-slug: desenvolvimento/teste2
+spec:
+  type: api
+  lifecycle: experimental
+  owner: UTIC
+  system: desenvolvimento
